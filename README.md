@@ -2,7 +2,6 @@
 
 **A relational database + SQL + Power BI dashboard project built on a real 311-employee HR dataset, designed to demonstrate data modeling, T-SQL, and business intelligence skills for HR/HCM analytics and reporting roles.**
 
-![Dashboard](powerbi/dashboard_final.png)
 
 ---
 
