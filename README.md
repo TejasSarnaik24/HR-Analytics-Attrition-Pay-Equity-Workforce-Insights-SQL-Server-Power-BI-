@@ -44,10 +44,10 @@ Managers (ManagerID PK)        RecruitmentSources (SourceID PK)
               PerformanceReviews (EmpID PK/FK)
 ```
 
-### Step 4 — SQL business queries (`sql/hr_project_mssql.sql`, `sql/07_short_extra_queries.sql`)
+### Step 4 — SQL business queries (`sql/hr_project_mssql.sql`)
 Wrote T-SQL queries answering the objectives above — headcount, attrition rate by department, pay equity by gender/position, recruitment source effectiveness, diversity profile, manager-vs-performance, and an at-risk (PIP) employee list.
 
-### Step 5 — Power BI dashboard (`powerbi/dashboard_final.png`)
+### Step 5 — Power BI dashboard 
 Connected Power BI Desktop directly to the SQL Server database (Import mode), built the relationship model (including fixing one missing relationship — `Employees.ManagerID → Managers.ManagerID` — that had no matching foreign key in SQL, so Power BI couldn't auto-detect it), then built:
 - 3 KPI cards: Total Headcount, Overall Attrition %, Average Salary
 - Headcount by Department (bar)
